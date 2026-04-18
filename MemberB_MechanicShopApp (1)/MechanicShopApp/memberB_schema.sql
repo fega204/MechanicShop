@@ -1,5 +1,4 @@
--- Member B: Customer & Appointment Management
--- Run this script in MariaDB before launching the application
+
 
 CREATE DATABASE IF NOT EXISTS mechanic_shop;
 USE mechanic_shop;
