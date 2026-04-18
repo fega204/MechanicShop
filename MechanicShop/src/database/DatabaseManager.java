@@ -6,7 +6,8 @@ public class DatabaseManager {
     private Connection conn;
     private String url = "jdbc:mariadb://localhost:3306/mechanic_shop";
     private String user = "root";
-    private String pass = "Igbunu123";
+    //private String pass = "Igbunu123";
+    private String pass = "root123";
 
     private DatabaseManager(){ connect(); }
     public static DatabaseManager getInstance(){ return instance; }

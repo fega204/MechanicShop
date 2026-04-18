@@ -1,6 +1,6 @@
 package ui;
-import java.util.Scanner;
 import database.VehicleDAO;
+import java.util.Scanner;
 
 public class VehicleMenu {
     Scanner input = new Scanner(System.in);
@@ -11,13 +11,13 @@ public class VehicleMenu {
         while(choice!=3){
             System.out.println("\n1 Add Vehicle");
             System.out.println("2 Show Vehicles");
-            System.out.println("3 Exit");
+            System.out.println("3 Return to Main Menu");
             System.out.print("Choice: ");
             choice=input.nextInt();
             input.nextLine();
             if(choice==1){ add(); }
             else if(choice==2){ dao.showVehicles(); }
-            else if(choice==3){ System.out.println("Bye"); }
+            else if(choice==3){ System.out.println("Returning to main menu"); }
             else { System.out.println("Wrong choice"); }
         }
     }
