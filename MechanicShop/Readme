@@ -1,0 +1,34 @@
+# Mechanic Shop Management System
+
+## Student
+Fega, Banjo and Ayden
+
+## Project Description
+This is a Java console application for managing a mechanic shop. It allows users to manage vehicles, parts inventory, and generate invoices using a MariaDB database.
+
+## Features
+- Add and show vehicles
+- Add, show, update, and delete parts
+- Generate invoices
+- Input validation
+- Database connection
+
+## Technologies Used
+- Java
+- Eclipse
+- MariaDB
+- JDBC
+
+## How to Run
+1. Open project in Eclipse
+2. Make sure MariaDB is running
+3. Create the database and tables
+4. Run `Main.java`
+
+## Database Name
+mechanic_shop
+
+## Main Menu
+1. Vehicle Management
+2. Inventory / Invoice Management
+3. Exit

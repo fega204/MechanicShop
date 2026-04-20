@@ -1,0 +1,1519 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<sim-project version="15.21" multi-file="no" uid="simp2da34910747a40bdaa05d11ef3b3aea4" creation-date="04/19/2026 20:07:59">
+  <meta>
+    <name>Mechanic Shop Class Diagram</name>
+    <authors>Ayden W</authors>
+    <description />
+  </meta>
+  <counters models="1">
+    <entity-names>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>5</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>19</value>
+      </counter>
+      <counter>
+        <item-type stereotype="interface" type-id="uml-interface-classifier" type="Interface" />
+        <value>1</value>
+      </counter>
+    </entity-names>
+    <entity-ids>
+      <counter>
+        <item-type type-id="package" type="Package" />
+        <value>6</value>
+      </counter>
+      <counter>
+        <item-type type-id="class" type="Class" />
+        <value>20</value>
+      </counter>
+      <counter>
+        <item-type type-id="property" type="Property" />
+        <value>37</value>
+      </counter>
+      <counter>
+        <item-type type-id="uml-interface-classifier" type="Interface" />
+        <value>2</value>
+      </counter>
+      <counter>
+        <item-type type-id="generalization" type="Generalization" />
+        <value>3</value>
+      </counter>
+      <counter>
+        <item-type type-id="constraint-connector" type="Constraint Connector" />
+        <value>2</value>
+      </counter>
+    </entity-ids>
+    <diagrams>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.Diagrams.UmlDiagrams.UmlClassDiagram</type>
+        <value>1</value>
+      </counter>
+    </diagrams>
+    <fields>
+      <counter>
+        <type>SoftwareIdeasModeler.Core.DiagramItems.Fields.OperationField</type>
+        <value>97</value>
+      </counter>
+    </fields>
+  </counters>
+  <alias-groups />
+  <management uid="md-a0fdc5b1f2734c7998f85c500e2f7ec1" name="" task-id-sequence="0">
+    <working-schedule uid="ws-9952eb10258a4473acd20760b6fbcd0f" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+    <persons>
+      <person id="">
+        <first-name>Ayden</first-name>
+        <last-name>W</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+        <working-schedule uid="ws-7b2dbd3b11e2413da04e27a8534e08e2" hours="8" monday="8" tuesday="8" wednesday="8" thursday="8" friday="8" saturday="0" sunday="0" />
+      </person>
+      <person id="">
+        <first-name>Ayden</first-name>
+        <last-name>W</last-name>
+        <role />
+        <e-mail />
+        <phone-number />
+        <description />
+        <color>#00000000</color>
+      </person>
+    </persons>
+    <teams />
+    <sprints />
+    <projects />
+    <modules />
+    <tasks />
+    <to-dos />
+  </management>
+  <glossary id="glsr-e7f783de88d24ad78186cb1c76b3e757" name="" order-index="-1" />
+  <types default="UML">
+    <type-sets>
+      <type-set file="JavaTypes.xml" />
+      <type-set file="MariaDbTypes.xml" />
+      <type-set file="UmlTypes.xml" />
+    </type-sets>
+    <custom-types>
+      <parameters />
+      <types>
+        <type id="Class:0a01c9db6eb14c688ab917c56fff3757" name="VehicleDAO" class-ref="0a01c9db6eb14c688ab917c56fff3757" />
+        <type id="Scanner" name="Scanner" />
+        <type id="Class:c60cb83ff0e947e0bbde151d51ab0ac2" name="InvoiceDAO" class-ref="c60cb83ff0e947e0bbde151d51ab0ac2" />
+        <type id="Class:074a6d346a5c4e8c860766854bc0e428" name="PartDao" class-ref="074a6d346a5c4e8c860766854bc0e428" />
+        <type id="ar" name="ar" />
+        <type id="Connection" name="Connection" />
+        <type id="Class:dcae7786c3cd4fb391a542b7d44cdef8" name="Invoice" class-ref="dcae7786c3cd4fb391a542b7d44cdef8" />
+        <type id="arra" name="arra" />
+        <type id="arr" name="arr" />
+        <type id="Class:c96804c50c8743a5bb7f8aa358aeca6c" name="DatabaseManager" class-ref="c96804c50c8743a5bb7f8aa358aeca6c" />
+        <type id="a" name="a" />
+        <type id="Class:e1e3d1bda8a2435589097bda739a36a4" name="Part" class-ref="e1e3d1bda8a2435589097bda739a36a4" />
+      </types>
+    </custom-types>
+  </types>
+  <items>
+    <item id="0ff4333db80d433ea7d9a772c407d233" cid="PROP030" type="property" name="searchValue" owner="ddcb3fae264649cc979f9f33323548d2" creator="" creation-date="04/19/2026 22:45:06" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="629ef10c4c434660a3249c334ef75d35" cid="PROP023" type="property" name="conn" owner="c96804c50c8743a5bb7f8aa358aeca6c" creator="" creation-date="04/19/2026 22:34:31" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Connection" type-id="Connection" />
+    </item>
+    <item id="87a223f43b8d444797519a0f7077dc67" cid="PROP022" type="property" name="instance" owner="c96804c50c8743a5bb7f8aa358aeca6c" creator="" creation-date="04/19/2026 22:31:22" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <feature static="true" />
+      <structural-feature multiplicity="1" type="DatabaseManager" type-id="Class:c96804c50c8743a5bb7f8aa358aeca6c" />
+      <property default-value="Car" default-value-ref="6011d458bfc841a289678db4fdeac4cb" />
+    </item>
+    <item id="dd6ee49734114a6eb3236c4886931f85" cid="PROP026" type="property" name="pass" owner="c96804c50c8743a5bb7f8aa358aeca6c" creator="" creation-date="04/19/2026 22:35:57" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="5d88724d9a7e476ab474eadf7eea0700" cid="PROP024" type="property" name="url" owner="c96804c50c8743a5bb7f8aa358aeca6c" creator="" creation-date="04/19/2026 22:35:45" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="e29228052148490fbc8122e2e009316b" cid="PROP029" type="property" name="connection" owner="c60cb83ff0e947e0bbde151d51ab0ac2" creator="" creation-date="04/19/2026 22:43:02" visibility="package">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Connection" type-id="Connection" />
+    </item>
+    <item id="3eacaa65433748028c28b89e09114fff" cid="PROP034" type="property" name="input" owner="91d14895f0f94674a991dc0a0c7a4723" creator="" creation-date="04/19/2026 22:54:33" visibility="package">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="Scanner" type-id="Scanner" />
+    </item>
+    <item id="76518e01808c48e988c5923e85fc7ae1" cid="PROP025" type="property" name="user" owner="c96804c50c8743a5bb7f8aa358aeca6c" creator="" creation-date="04/19/2026 22:35:50" visibility="private">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="String" type-id="Java.String" />
+    </item>
+    <item id="5422653d608c4ac1b22d8a2a9223ee9f" cid="PROP035" type="property" name="partDataAccessObject" owner="91d14895f0f94674a991dc0a0c7a4723" creator="" creation-date="04/19/2026 22:54:49" visibility="package">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="PartDao" type-id="Class:074a6d346a5c4e8c860766854bc0e428" />
+    </item>
+    <item id="6cbd3db9395c477bb54bd2d443787f8e" cid="PROP036" type="property" name="invoiceDataAccessObject" owner="91d14895f0f94674a991dc0a0c7a4723" creator="" creation-date="04/19/2026 22:55:19" visibility="package">
+      <style style-name="Default" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#3A555555" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" glow-color="#FFFFFF" accuracy="0.9">
+        <text-style type="name" color="#555555" font="Segoe UI;11.25;B" />
+        <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+        <text-style type="text" color="#555555" font="Segoe UI;9.75;" horizontal-alignment="left" />
+        <text-style type="tagged-value" color="#555555" font="Segoe UI;9.75;" />
+        <text-style type="stereotype" color="#555555" font="Segoe UI;9;I" />
+        <background type="solid" colors="#F2F2F2,#F2F2F2" />
+        <border color="#555555" width="2" />
+        <label-connector color="#80000000" dash-style="Dash" />
+        <alternate-styles>
+          <alternate-style style-name="Alternate" shadow-type="smooth" shadow-offset="2,2" shadow-visible="true" shadow-color="#322A2A2A" shadow-radius="8" wrap-name-text="true" wrap-other-text="true" padding="2" margin="3" glow-color="#FFFFFF" accuracy="0.9">
+            <text-style type="name" color="#E9E9E9" font="Segoe UI;11.25;B" />
+            <text-style type="part-header" color="#1E1E1E" font="Verdana;9;I" />
+            <text-style type="text" color="#E9E9E9" font="Segoe UI;9.75;" horizontal-alignment="left" />
+            <text-style type="tagged-value" color="#E9E9E9" font="Segoe UI;9.75;" />
+            <text-style type="stereotype" color="#E9E9E9" font="Segoe UI;9;I" />
+            <background type="solid" colors="#203D85,#203D85" />
+            <border color="#203D85" width="2" />
+            <label-connector color="#80000000" dash-style="Dash" />
+          </alternate-style>
+        </alternate-styles>
+      </style>
+      <structural-feature type="InvoiceDAO" type-id="Class:c60cb83ff0e947e0bbde151d51ab0ac2" />
+    </item>
+  </items>
+  <models>
+    <model id="p2a35a3580b9d40d2a8cf2c904aa010e1_568139834" name="Model1" namespace="" order-index="1">
+      <meta>
+        <authors>
+          <author> </author>
+        </authors>
+        <description />
+        <creation-date>04/19/2026 20:08:30</creation-date>
+        <change-date>01/01/0001 00:00:00</change-date>
+        <revision-count>0</revision-count>
+        <version />
+      </meta>
+      <abstract-items />
+      <sub-models />
+      <diagram type="uml-class" id="p08de4d2299e14106a5af549309d7b524_626306775" name="ClassDiagram1" order-index="1" uid="" name-style="" auto-routed-paths="false" default-line-style="default" view-location="-610,-436" zoom="0.4">
+        <style>
+          <background-color index="1" color="#FFFFFFFF" />
+          <background-color index="2" color="#FFFFFFFF" />
+          <background-type type="solid" />
+        </style>
+        <meta>
+          <authors>
+            <author> </author>
+          </authors>
+          <description />
+          <creation-date>04/19/2026 20:08:30</creation-date>
+          <change-date>04/19/2026 23:03:54</change-date>
+          <revision-count>0</revision-count>
+          <version />
+        </meta>
+        <abstract-items>
+          <item id="a43a3982ed6d4ed4a3b3522b0e85e8f2" cid="PROP011" type="property" name="partId" owner="e1e3d1bda8a2435589097bda739a36a4" creator="" creation-date="04/19/2026 22:12:48" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="06762e5cfb3a4ff7b4d51cedddb58d00" cid="C006" type="class" name="Inventory" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 22:16:43" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a2549af4fb1d846569843723d4014e48c352" cid="PROP015" name="parts" creation-date="04/19/2026 22:16:53" property-ref="1936020b59084c0d89b856faa67add81" />
+            </attributes>
+            <operations>
+              <operation id="o9bf62144a6964e31baa6c7428339124a806" cid="OP036" name="Inventory" creation-date="04/19/2026 22:17:31" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od1d7c28db25d4368b504da00b8c2665c95" cid="OP037" name="Inventory" creation-date="04/19/2026 22:17:46" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p9841adb5b1394a24b7f38ec2c6cce9df" name="parts" type="ArrayList" type-id="Java.ArrayList" creation-date="04/19/2026 22:17:51" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc74798c881584c2aa0908d874ed8ebe9913" cid="OP038" name="addPart" creation-date="04/19/2026 22:18:31" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb185d2c62a57430daf8c915712c06b8b" name="part" type="Part" type-id="Class:e1e3d1bda8a2435589097bda739a36a4" creation-date="04/19/2026 22:18:44" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="occd33b9beef9435b81b20ab1c74f4684488" cid="OP039" name="getParts" creation-date="04/19/2026 22:21:01" type="ArrayList" type-id="Java.ArrayList" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofb8378960fd54aa79706adcdd93acd8d899" cid="OP040" name="setParts" creation-date="04/19/2026 22:21:21" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb7971695cf5a46289ee016beb69e834a" name="parts" type="ArrayList" type-id="Java.ArrayList" creation-date="04/19/2026 22:21:27" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3dcd87a85bd247168ee949da3cb3487a572" cid="OP041" name="getTotalQuantity" creation-date="04/19/2026 22:21:49" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o128131cc33a049e2b3353b0b15b429a9833" cid="OP042" name="toString" creation-date="04/19/2026 22:22:03" type="String" type-id="Java.String" visibility="undefined">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="abb020b6f0aa4b55868daee9ab05552d" cid="PROP012" type="property" name="partName" owner="e1e3d1bda8a2435589097bda739a36a4" creator="" creation-date="04/19/2026 22:13:03" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="9674d57ccc84471cae4d1093401618f9" cid="C014" type="class" name="DuplicateVehicleException" owner="3de012d2226e448699ca6f716bf605cd" creator="" creation-date="04/19/2026 22:47:28">
+            <owned-items />
+            <attributes>
+              <attribute id="a3c747357a50e4097b919cc4aaa8805d1920" cid="PROP031" name="licencePlate" creation-date="04/19/2026 22:47:45" property-ref="3734174009af4eceb1dfcd44cc9480c6" />
+            </attributes>
+            <operations>
+              <operation id="o6b5a9834537c4adfba9efca4a41f473b166" cid="OP076" name="DuplicateVehicleException" creation-date="04/19/2026 22:47:58" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p761fe6daa3b74b4c82a80c34c40933c7" name="licencePlate" type="String" type-id="Java.String" creation-date="04/19/2026 22:48:09" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3f2f0230cefc43548e3db2232f7a4ec1107" cid="OP077" name="DuplicateVehicleException" creation-date="04/19/2026 22:48:19" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc118d5e97ed24fb0b41741c8d417f67c" name="licencePlate" type="String" type-id="Java.String" creation-date="04/19/2026 22:48:31" />
+                  <parameter id="pa04f12210e09426f95563fcddafb32e5" name="message" type="String" type-id="Java.String" creation-date="04/19/2026 22:48:38" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7f6ba656bb634b1aa25cee13b60e1f6268" cid="OP078" name="getLicencePlate" creation-date="04/19/2026 22:48:58" type="String" type-id="Java.String" visibility="undefined">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="3de012d2226e448699ca6f716bf605cd" cid="PKG003" type="package" name="exceptions" creator="" creation-date="04/19/2026 20:08:41" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="c60cb83ff0e947e0bbde151d51ab0ac2" cid="C012" type="class" name="InvoiceDAO" owner="e6acb4ad3d714f6f8514b81234d6bd11" creator="" creation-date="04/19/2026 22:42:53">
+            <owned-items />
+            <attributes>
+              <attribute id="aae97aa660dd04e81ba0bc7e221d7d832825" cid="PROP029" name="connection" creation-date="04/19/2026 22:43:02" property-ref="e29228052148490fbc8122e2e009316b" />
+            </attributes>
+            <operations>
+              <operation id="o62c238a1456a4e7d8ef289e8c4bc36e7654" cid="OP071" name="addInvoice" creation-date="04/19/2026 22:43:20" type="boolean" type-id="Java.boolean" visibility="public">
+                <parameters>
+                  <parameter id="p5d2f467ee4e24a2f83a207901a7120f1" name="invoice" type="Invoice" type-id="Class:dcae7786c3cd4fb391a542b7d44cdef8" creation-date="04/19/2026 22:43:38" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa949a959c5ea4c1fb6f0857f1b828919839" cid="OP072" name="showInvoices" creation-date="04/19/2026 22:44:05" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="cd53b4c986274333b15150e77ec9067c" cid="GNR002" type="generalization" name="parent" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 23:00:47" from="c8def09c37db4640a2bf6094175febb5" to="6011d458bfc841a289678db4fdeac4cb" visibility="package" />
+          <item id="acb057e380494c7aac454ac3b4930ac5" cid="C003" type="class" name="Truck" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 21:59:09" visibility="undefined">
+            <operations>
+              <operation id="oacd78a7927c5449abc6401a594dfac08893" cid="OP007" name="Truck" creation-date="04/19/2026 21:59:20" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p5746e12d459848bbb3cae7a155bcfcec" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 21:59:30" />
+                  <parameter id="p09cbf4a0483b49c5888e44b1bb73045e" name="make" type="String" type-id="Java.String" creation-date="04/19/2026 21:59:36" />
+                  <parameter id="p348fe33781164fa0979d727f04589cb3" name="model" type="String" type-id="Java.String" creation-date="04/19/2026 21:59:53" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="0a01c9db6eb14c688ab917c56fff3757" cid="C009" type="class" name="VehicleDAO" owner="e6acb4ad3d714f6f8514b81234d6bd11" creator="" creation-date="04/19/2026 22:37:38">
+            <owned-items />
+            <attributes>
+              <attribute id="a40b502ea9dd1401481a7b27df5d465f6800" cid="PROP027" name="conn" creation-date="04/19/2026 22:38:00" property-ref="6dc9d90e8b694065baa1929e38a6b6ce" />
+            </attributes>
+            <operations>
+              <operation id="od54f03b8902d4b14a7e7429255dd830e479" cid="OP062" name="addRecord" creation-date="04/19/2026 22:38:26" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3ba60972e4e9456b99833ee014817679" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 22:38:33" />
+                  <parameter id="pd0009076243c49daa6bff5ab5ac7774d" name="vehicleId" type="int" type-id="Java.int" creation-date="04/19/2026 22:38:38" />
+                  <parameter id="pe7b87db548f8417d8692226debba63ee" name="service" type="String" type-id="Java.String" creation-date="04/19/2026 22:38:44" />
+                  <parameter id="p0df7ec853b7843e7ad0e83327ebfa9e2" name="cost" type="double" type-id="Java.double" creation-date="04/19/2026 22:38:50" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe280e23d7b7346cf8fa785c1a803d8c6183" cid="OP063" name="showRecords" creation-date="04/19/2026 22:39:00" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o23a713db8f6348bfaf03e32e1246c570319" cid="OP064" name="deleteRecord" creation-date="04/19/2026 22:39:09" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pa9f462a70b964c8fa53506abf1cffe96" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 22:39:14" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="2529aca54e41461da82f082ea9a1deaf" cid="C016" type="class" name="InvalidInputException" owner="3de012d2226e448699ca6f716bf605cd" creator="" creation-date="04/19/2026 22:50:02">
+            <operations>
+              <operation id="o87863add4330436d8172e196f4994044358" cid="OP080" name="InvalidInputException" creation-date="04/19/2026 22:50:16" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa5a62e89e7a643a58dcfa9addba11153" name="message" type="String" type-id="Java.String" creation-date="04/19/2026 22:50:25" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="e6acb4ad3d714f6f8514b81234d6bd11" cid="PKG002" type="package" name="database" creator="" creation-date="04/19/2026 20:08:36" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="dcae7786c3cd4fb391a542b7d44cdef8" cid="C007" type="class" name="Invoice" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 22:25:34">
+            <owned-items />
+            <attributes>
+              <attribute id="a452af55daa3946cd81ff3ee4e72ed431427" cid="PROP016" name="invoiceId" creation-date="04/19/2026 22:25:50" property-ref="46284e13caa74da2b97ff6d9bbf90728" />
+              <attribute id="a86cb4a41449a4294a3a3d6fa5256b6c478" cid="PROP017" name="partId" creation-date="04/19/2026 22:25:58" property-ref="8086bff0712347d29d41432b3ae1dbb6" />
+              <attribute id="afe50788e55184250bffdeba030c3b127186" cid="PROP018" name="quantityUsed" creation-date="04/19/2026 22:26:04" property-ref="fd40d4b20dca4767ba42dee52f6af9b3" />
+              <attribute id="ad86a440ed0b74edda3a9c9a196389139403" cid="PROP019" name="serviceDescription" creation-date="04/19/2026 22:26:11" property-ref="e28012e7780943bbab16c61045f8445b" />
+              <attribute id="a1fa4374f9bd0495fab00d9380983da19183" cid="PROP020" name="laborCost" creation-date="04/19/2026 22:26:23" property-ref="697e500ae2dd44a1adde0905b84aaea9" />
+              <attribute id="a79cc800b20294c7e9a4be056a2f678996" cid="PROP021" name="totalCost" creation-date="04/19/2026 22:26:39" property-ref="1072e4cf90ca49ba8a21f8ba63154964" />
+            </attributes>
+            <operations>
+              <operation id="o5fabe1623d06474990635a84b7f55636327" cid="OP043" name="Invoice" creation-date="04/19/2026 22:26:48" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p415fe2f56c6a46f5b604506e8b9f1a63" name="invoiceid" type="int" type-id="Java.int" creation-date="04/19/2026 22:26:53" />
+                  <parameter id="p482ee4c4b3f94a039a23bf01af22b21c" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:27:05" />
+                  <parameter id="pcff4624b30c54fe9bc4fb496e13c72ff" name="quantityUsed" type="int" type-id="Java.int" creation-date="04/19/2026 22:27:10" />
+                  <parameter id="paa587eed4cf04200a8169250d6dccd66" name="serviceDescription" type="String" type-id="Java.String" creation-date="04/19/2026 22:27:20" />
+                  <parameter id="pb9aee920f3a843f2b121fe483368e579" name="laborCost" type="double" type-id="Java.double" creation-date="04/19/2026 22:27:28" />
+                  <parameter id="p0bf1ab8368dd445c8d62d000dd7a40e2" name="totalCost" type="double" type-id="Java.double" creation-date="04/19/2026 22:27:34" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o654e8615d9344d57b1f856ea3f87a4d8764" cid="OP044" name="getInvoiceId" creation-date="04/19/2026 22:27:44" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o60dd1504f9364e66a1ceb4c135e873d2752" cid="OP045" name="setInvoiceId" creation-date="04/19/2026 22:28:00" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p9204b0d523b34afb8d9ea30b51054e07" name="invoiceId" type="int" type-id="Java.int" creation-date="04/19/2026 22:28:05" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1e40753c86ce475aa84bedee2d84993b360" cid="OP046" name="getPartId" creation-date="04/19/2026 22:28:18" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oe9f18ced8adc4b96aa002876c6c89caf973" cid="OP047" name="setPartId" creation-date="04/19/2026 22:28:26" type="int" type-id="Java.int" visibility="undefined">
+                <parameters>
+                  <parameter id="p48d5e7a234194c0ca04d1a8d603e2c18" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:28:34" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4c4c3e416e954d2598ade4d0805cdf66244" cid="OP048" name="getQuantityUsed" creation-date="04/19/2026 22:28:41" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob0a0e4349d454429b4679d8f6ca6756c336" cid="OP049" name="setQuantityUsed" creation-date="04/19/2026 22:28:51" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p0ed8424a9bef4a7ab6349d440037ad3c" name="quantityUsed" type="int" type-id="Java.int" creation-date="04/19/2026 22:28:55" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3996d06cd2074e2099e103abdef9de53396" cid="OP050" name="getServiceDescription" creation-date="04/19/2026 22:29:02" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obebe9c52652c40f6ba2444e02eaadd80147" cid="OP051" name="setServiceDescription" creation-date="04/19/2026 22:29:13" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p425d9987d6104ade87bc844ed7fbafeb" name="serviceDescription" type="String" type-id="Java.String" creation-date="04/19/2026 22:29:18" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o42652efe49a14b72824e92ca80f136cd539" cid="OP052" name="getLaborCost" creation-date="04/19/2026 22:29:26" type="double" type-id="Java.double" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o869a6cda195c420cab896de81348a228286" cid="OP053" name="setLaborCost" creation-date="04/19/2026 22:29:38" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pfdb8945546874975a8c23d6f2bebfa78" name="laborCost" type="double" type-id="Java.double" creation-date="04/19/2026 22:29:49" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obd692860ba2f48a0b240b1bdc18940b0858" cid="OP054" name="getTotalCost" creation-date="04/19/2026 22:29:59" type="double" type-id="Java.double" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o3b3b1d8393744ac98c916f234d5a9272609" cid="OP055" name="setTotalCost" creation-date="04/19/2026 22:30:07" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="pea5493fbcca6436294b9db3c0c97a5d0" name="totalCost" type="double" type-id="Java.double" creation-date="04/19/2026 22:30:11" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o47751bb3a19846afbeb43bb10facb66a96" cid="OP056" name="toString" creation-date="04/19/2026 22:30:22" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="e1e3d1bda8a2435589097bda739a36a4" cid="C005" type="class" name="Part" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 22:12:40" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a3841fb4f34744d04acf2d67f694f82f557" cid="PROP011" name="partId" creation-date="04/19/2026 22:12:48" property-ref="a43a3982ed6d4ed4a3b3522b0e85e8f2" />
+              <attribute id="ac3a28bb3cf4a414f9d2191bbdc861af2851" cid="PROP012" name="partName" creation-date="04/19/2026 22:13:03" property-ref="abb020b6f0aa4b55868daee9ab05552d" />
+              <attribute id="a07192735bac74982a5fd32cc5bee1d8083" cid="PROP013" name="quantity" creation-date="04/19/2026 22:13:12" property-ref="50d8bbba5c634389b322649786a4f74b" />
+              <attribute id="af52719b653db48798630c0fd08edf8d2353" cid="PROP014" name="unitPrice" creation-date="04/19/2026 22:13:20" property-ref="61f212e57d8e49e8b4cb1a9db2de76a9" />
+            </attributes>
+            <operations>
+              <operation id="o951f999f12b248dcac48e3c805151411288" cid="OP026" name="Part" creation-date="04/19/2026 22:13:33" type="" type-id="" visibility="undefined">
+                <parameters>
+                  <parameter id="p346ee1108fb64befbd3a3d715cff2316" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:14:00" />
+                  <parameter id="p6412ea7a48b34f0c8e4610bf87f5fa91" name="partName" type="String" type-id="Java.String" creation-date="04/19/2026 22:14:10" />
+                  <parameter id="p65bd108952144106844ea5fa256a23e6" name="quantity" type="int" type-id="Java.int" creation-date="04/19/2026 22:14:16" />
+                  <parameter id="pb40a3f7d4168474cb600b5a4eadea868" name="unitPrice" type="double" type-id="Java.double" creation-date="04/19/2026 22:14:22" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1dd6e2dec9234eaca0d90724a022e629448" cid="OP027" name="getPartId" creation-date="04/19/2026 22:14:35" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od9873a8578984654840bce85ffb72ebd448" cid="OP028" name="setPartId" creation-date="04/19/2026 22:14:44" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1a9d82b24d0e4ddfb87fe81641230f12" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:14:50" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o2892ee68957e416a99fefd5cb4cd2ac3272" cid="OP029" name="getPartName" creation-date="04/19/2026 22:15:05" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odb71213cd40644d184a6cb74ea9d51e4623" cid="OP030" name="setPartName" creation-date="04/19/2026 22:15:18" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc27789d3bd554ec281bc3d4c5f2e5cb7" name="partName" type="String" type-id="Java.String" creation-date="04/19/2026 22:15:24" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob54593b4652645e8a27d05926ded2200990" cid="OP031" name="getQuantity" creation-date="04/19/2026 22:15:31" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of684dff9637745519fcf1a5fdd077234159" cid="OP032" name="setQuantity" creation-date="04/19/2026 22:15:40" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pa1aee70de2344a04bfae9edd5479e671" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:15:46" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ocd24aee7baa5454db0c2bdaa4b54f2cd371" cid="OP033" name="getUnitPrice" creation-date="04/19/2026 22:15:55" type="double" type-id="Java.double" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o36fea3836cc3453ba666dbdd1db581bc530" cid="OP034" name="setUnitPrice" creation-date="04/19/2026 22:16:06" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p94ba91be802c493aa3142f6b00f8f028" name="unitPrice" type="double" type-id="Java.double" creation-date="04/19/2026 22:16:13" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5f90d665149a4f4dafd3d364ac43256b187" cid="OP035" name="toString" creation-date="04/19/2026 22:16:24" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="295648d4718344eba7ac938dcb3fa433" cid="PKG005" type="package" name="ui" creator="" creation-date="04/19/2026 20:08:52" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="1072e4cf90ca49ba8a21f8ba63154964" cid="PROP021" type="property" name="totalCost" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:26:39" visibility="private">
+            <structural-feature type="double" type-id="Java.double" />
+            <property />
+          </item>
+          <item id="f7483f00c2e941c5a4954b6c1b4e47af" cid="PROP009" type="property" name="mechanicName" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:02:32" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="50d8bbba5c634389b322649786a4f74b" cid="PROP013" type="property" name="quantity" owner="e1e3d1bda8a2435589097bda739a36a4" creator="" creation-date="04/19/2026 22:13:12" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="c96804c50c8743a5bb7f8aa358aeca6c" cid="C008" type="class" name="DatabaseManager" owner="e6acb4ad3d714f6f8514b81234d6bd11" creator="" creation-date="04/19/2026 22:31:07">
+            <owned-items />
+            <attributes>
+              <attribute id="a00e58e5c2ffb4985b28ab3cb1cd48e9e968" cid="PROP022" name="instance" creation-date="04/19/2026 22:31:22" property-ref="87a223f43b8d444797519a0f7077dc67" />
+              <attribute id="aaf9ea30ebcdd422d920899d00c3dc4db454" cid="PROP023" name="conn" creation-date="04/19/2026 22:34:31" property-ref="629ef10c4c434660a3249c334ef75d35">
+                <style class="@Owner" />
+              </attribute>
+              <attribute id="a1003b31651a34c99b716232a0207bb11196" cid="PROP024" name="url" creation-date="04/19/2026 22:35:45" property-ref="5d88724d9a7e476ab474eadf7eea0700" />
+              <attribute id="a8e83aeec97c64f0e845a901c3a01b172835" cid="PROP025" name="user" creation-date="04/19/2026 22:35:50" property-ref="76518e01808c48e988c5923e85fc7ae1" />
+              <attribute id="afe18d2b926f14f5e95ff35e9fc042911715" cid="PROP026" name="pass" creation-date="04/19/2026 22:35:57" property-ref="dd6ee49734114a6eb3236c4886931f85" />
+            </attributes>
+            <operations>
+              <operation id="o39f8cc94707e4cf9915ca2aa167141d4641" cid="OP057" name="DatabaseManager" creation-date="04/19/2026 22:36:08" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o786503b1231248fe90a8febd72943eef350" cid="OP058" name="getInstance" creation-date="04/19/2026 22:36:20" type="DatabaseManager" type-id="Class:c96804c50c8743a5bb7f8aa358aeca6c" visibility="public" static="true">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o4d676c353d2b4111a95d74ea358ca72c956" cid="OP059" name="connect" creation-date="04/19/2026 22:36:42" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofb6caa00b75f4d0aa7291eaf21e5612590" cid="OP060" name="getConnection" creation-date="04/19/2026 22:36:51" type="Connection" type-id="Connection" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ofdbd61c4d00a44eba0dca4681af40370111" cid="OP061" name="closeConnection" creation-date="04/19/2026 22:37:13" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="3734174009af4eceb1dfcd44cc9480c6" cid="PROP031" type="property" name="licencePlate" owner="9674d57ccc84471cae4d1093401618f9" creator="" creation-date="04/19/2026 22:47:45" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+            <property />
+          </item>
+          <item id="521d28e461cf491b9e1cea27e847e4f7" cid="PROP033" type="property" name="dao" owner="49bb15cbf012466088668d1b2efa6e23" creator="" creation-date="04/19/2026 22:53:43" visibility="package">
+            <structural-feature type="VehicleDAO" type-id="Class:0a01c9db6eb14c688ab917c56fff3757" />
+            <property />
+          </item>
+          <item id="074a6d346a5c4e8c860766854bc0e428" cid="C010" type="class" name="PartDao" owner="e6acb4ad3d714f6f8514b81234d6bd11" creator="" creation-date="04/19/2026 22:39:31">
+            <owned-items />
+          </item>
+          <item id="46284e13caa74da2b97ff6d9bbf90728" cid="PROP016" type="property" name="invoiceId" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:25:50" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+            <property />
+          </item>
+          <item id="e28012e7780943bbab16c61045f8445b" cid="PROP019" type="property" name="serviceDescription" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:26:11" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+            <property />
+          </item>
+          <item id="127a802cdec44cf0bb10137bd3248bf3" cid="C011" type="class" name="ServiceRecordDAO" owner="e6acb4ad3d714f6f8514b81234d6bd11" creator="" creation-date="04/19/2026 22:40:04">
+            <owned-items />
+            <attributes>
+              <attribute id="aed4fdaf782ee474f9bc6f93cfca4e610582" cid="PROP028" name="conn" creation-date="04/19/2026 22:40:21" property-ref="6aaf32b6ea154bce8da55afdf11d214a" />
+            </attributes>
+            <operations>
+              <operation id="o9af42caa0bad455395ca35cad2373c77373" cid="OP065" name="addPart" creation-date="04/19/2026 22:40:35" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pc114622f06d8489fb059aba5b0e1ffad" name="part" type="Part" type-id="Class:e1e3d1bda8a2435589097bda739a36a4" creation-date="04/19/2026 22:40:39" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o74b84203e8d5417180ac63f635bd3072844" cid="OP066" name="showParts" creation-date="04/19/2026 22:40:49" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o82843a7a8e4b4bcba244657e2fdf4b3f636" cid="OP067" name="getAllParts" creation-date="04/19/2026 22:40:55" type="ArrayList" type-id="Java.ArrayList" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5207ea99df99407abef30489df661b2d621" cid="OP068" name="getPartById" creation-date="04/19/2026 22:41:24" type="Part" type-id="Class:e1e3d1bda8a2435589097bda739a36a4" visibility="public">
+                <parameters>
+                  <parameter id="p88be7ff534c7420b95a88c3ff9c0d1db" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 22:41:31" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o72c2183691c246f3ab6ba89372159f81270" cid="OP069" name="updatePartQuantity" creation-date="04/19/2026 22:41:51" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pd373579817864a4b8b5d36f77e5e216c" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:42:05" />
+                  <parameter id="p2a4e5135445447c39e9376cd7c8e6355" name="partQuantity" type="int" type-id="Java.int" creation-date="04/19/2026 22:42:11" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8c43f9cde58f444b9026c408df9aa06e832" cid="OP070" name="deletePart" creation-date="04/19/2026 22:42:27" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="pb3e1137fba6846e4a7583208e273faa3" name="partId" type="int" type-id="Java.int" creation-date="04/19/2026 22:42:33" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="49bb15cbf012466088668d1b2efa6e23" cid="C018" type="class" name="VehicleMenu" owner="295648d4718344eba7ac938dcb3fa433" creator="" creation-date="04/19/2026 22:53:12">
+            <owned-items />
+            <attributes>
+              <attribute id="a9be58b5f75e84dfcbae6445dade8422e746" cid="PROP032" name="input" creation-date="04/19/2026 22:53:22" property-ref="46a8dd8176ec4b329702026efca27b53" />
+              <attribute id="af2a54c6602cb4a0ea786ae448228ae62509" cid="PROP033" name="dao" creation-date="04/19/2026 22:53:43" property-ref="521d28e461cf491b9e1cea27e847e4f7" />
+            </attributes>
+            <operations>
+              <operation id="o2bf855615e354c5fbc490d41922e3250941" cid="OP085" name="start" creation-date="04/19/2026 22:53:57" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oac7e6f49aaf14ebc92c1b5d025aab8ba838" cid="OP086" name="add" creation-date="04/19/2026 22:54:05" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="91d14895f0f94674a991dc0a0c7a4723" cid="C019" type="class" name="InventoryMenu" owner="295648d4718344eba7ac938dcb3fa433" creator="" creation-date="04/19/2026 22:54:22">
+            <owned-items />
+            <attributes>
+              <attribute id="a634e1a01137f4605be7a0fb9e4251e5d128" cid="PROP034" name="input" creation-date="04/19/2026 22:54:33" property-ref="3eacaa65433748028c28b89e09114fff" />
+              <attribute id="a2b4b0a7f5c2448888b169b5541bbc78b319" cid="PROP035" name="partDataAccessObject" creation-date="04/19/2026 22:54:49" property-ref="5422653d608c4ac1b22d8a2a9223ee9f" />
+              <attribute id="ab137b9dd1a3f43eba28a0c23cebc2405449" cid="PROP036" name="invoiceDataAccessObject" creation-date="04/19/2026 22:55:19" property-ref="6cbd3db9395c477bb54bd2d443787f8e" />
+            </attributes>
+            <operations>
+              <operation id="ocf69ec86ba464b4b8937d94e149069e7291" cid="OP087" name="start" creation-date="04/19/2026 22:55:48" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o6b6cf8feb7064ff3a20cdb053e2e8d56213" cid="OP088" name="addPart" creation-date="04/19/2026 22:55:55" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o1fabd73ea94e4d15b303b04ba742f572603" cid="OP089" name="showInventory" creation-date="04/19/2026 22:56:02" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o5b4f5b34c86f4cabb18f76c68f8d9f8f22" cid="OP090" name="updatePartQuantity" creation-date="04/19/2026 22:56:12" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od37af7753c9142d2ad041606642d268b501" cid="OP091" name="deletePart" creation-date="04/19/2026 22:56:20" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0a3b60e1217a4304ba25ee419ee041ae55" cid="OP092" name="generateInvoice" creation-date="04/19/2026 22:56:27" type="" type-id="" visibility="private">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="od2615f2c0f7d4769bde0f1a21e9aaf20226" cid="OP093" name="checkPositive" creation-date="04/19/2026 22:56:33" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p13c5b7e08c5f41f9be46a58cc15717a1" name="number" type="int" type-id="Java.int" creation-date="04/19/2026 22:56:42" />
+                  <parameter id="p538fc69b397545d4a51baf8f66d9c553" name="fieldName" type="String" type-id="Java.String" creation-date="04/19/2026 22:56:49" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="obbd25fa0ef924279ac0b48875dfd7265422" cid="OP094" name="checkNotNegative" creation-date="04/19/2026 22:56:58" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="pb330bf35890240b18569e11fa1d4f65c" name="number" type="int" type-id="Java.int" creation-date="04/19/2026 22:57:05" />
+                  <parameter id="p5e35edd5ae0b44cfbd98a8b95ff117bd" name="fieldName" type="String" type-id="Java.String" creation-date="04/19/2026 22:57:12" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="of06c951306e34efa94cd041abc71c25d215" cid="OP095" name="checkNotNegative" creation-date="04/19/2026 22:57:19" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p152f6d237e334ff0a6b82f550d5d9c8a" name="number" type="double" type-id="Java.double" creation-date="04/19/2026 22:57:29" />
+                  <parameter id="pacc3a1cd03f748beafff9ddfcb9d7ba3" name="fieldName" type="String" type-id="Java.String" creation-date="04/19/2026 22:57:36" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o99ff4cc3e05d418eb6291a2057e1e34231" cid="OP096" name="checkText" creation-date="04/19/2026 22:57:55" type="" type-id="" visibility="private">
+                <parameters>
+                  <parameter id="p8b401a9df7894165aa7ed3f55b7b1ff8" name="text" type="String" type-id="Java.String" creation-date="04/19/2026 22:57:59" />
+                  <parameter id="pd68709ffd42b4d599ff14a3ae21f30a4" name="fieldName" type="String" type-id="Java.String" creation-date="04/19/2026 22:58:05" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="4fdfd6f29c2d46f380c03b87374fce5b" cid="PROP004" type="property" name="recordId" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:00:53" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="6011d458bfc841a289678db4fdeac4cb" cid="C002" type="class" name="Car" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 20:14:12" visibility="undefined">
+            <operations>
+              <operation id="o335f3051eaa74e17bd6035681545b7ba342" cid="OP006" name="Car" creation-date="04/19/2026 20:14:24" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p58bde1213a6c4a34948f33f4db6f59ef" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 20:14:39" />
+                  <parameter id="p909f3949dab1424fa4b053a081737d4b" name="make" type="String" type-id="Java.String" creation-date="04/19/2026 20:14:47" />
+                  <parameter id="p0f7882891d5149be829edc691b108182" name="model" type="String" type-id="Java.String" creation-date="04/19/2026 20:14:54" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="14df238768ee4fafbddf5b634cd62667" cid="C017" type="class" name="Main" owner="295648d4718344eba7ac938dcb3fa433" creator="" creation-date="04/19/2026 22:52:20">
+            <operations>
+              <operation id="of7ea72673db7454dbdbf67b8cceea07c16" cid="OP084" name="main" creation-date="04/19/2026 22:52:31" type="" type-id="" visibility="public" static="true">
+                <parameters>
+                  <parameter id="p2f9ade59ed2e409bac208f0a7c45eab8" name="args" type="String" type-id="Java.String" creation-date="04/19/2026 22:52:44" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="9e89723729314544a6b14ad117a82dee" cid="PKG001" type="package" name="models" creator="" creation-date="04/19/2026 20:08:32" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="e9b8f01026c348898e31dbc01332d4ce" cid="PROP006" type="property" name="serviceDate" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:01:28" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="0db8d5f91bfd486aaa19fb3ab5baaea6" cid="PROP003" type="property" name="model" owner="c8def09c37db4640a2bf6094175febb5" creator="" creation-date="04/19/2026 20:10:38" visibility="protected">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="7b4e80f00a0f421685f6d772bb3977a0" cid="PROP001" type="property" name="id" owner="c8def09c37db4640a2bf6094175febb5" creator="" creation-date="04/19/2026 20:10:14" visibility="protected">
+            <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="204abb6568a143038f40b54652c59a3c" cid="PROP007" type="property" name="description" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:01:45" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="8922f08eecaa4fccb462dd2de0e69701" cid="GNR001" type="generalization" name="parent" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 23:00:28" from="c8def09c37db4640a2bf6094175febb5" to="acb057e380494c7aac454ac3b4930ac5" visibility="package" />
+          <item id="697e500ae2dd44a1adde0905b84aaea9" cid="PROP020" type="property" name="laborCost" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:26:23" visibility="private">
+            <structural-feature type="double" type-id="Java.double" />
+            <property />
+          </item>
+          <item id="a02ba648e6e441efaae90b788cf31277" cid="PROP008" type="property" name="cost" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:01:58" visibility="private">
+            <structural-feature type="double" type-id="Java.double" />
+          </item>
+          <item id="6aaf32b6ea154bce8da55afdf11d214a" cid="PROP028" type="property" name="conn" owner="127a802cdec44cf0bb10137bd3248bf3" creator="" creation-date="04/19/2026 22:40:21" visibility="package">
+            <structural-feature type="Connection" type-id="Connection" />
+            <property />
+          </item>
+          <item id="3eba2c32d5fc4d4aaec5d6d37b570287" cid="C015" type="class" name="InsufficientPartsException" owner="3de012d2226e448699ca6f716bf605cd" creator="" creation-date="04/19/2026 22:49:20">
+            <operations>
+              <operation id="ofce4a333b823483d87c6c4ef1aa50ff3528" cid="OP079" name="InsufficientPartsException" creation-date="04/19/2026 22:49:39" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p8be6594c63c44e85be4f196955c5655a" name="message" type="String" type-id="Java.String" creation-date="04/19/2026 22:49:50" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="6dc9d90e8b694065baa1929e38a6b6ce" cid="PROP027" type="property" name="conn" owner="0a01c9db6eb14c688ab917c56fff3757" creator="" creation-date="04/19/2026 22:38:00" visibility="package">
+            <structural-feature type="Connection" type-id="Connection" />
+            <property />
+          </item>
+          <item id="46a8dd8176ec4b329702026efca27b53" cid="PROP032" type="property" name="input" owner="49bb15cbf012466088668d1b2efa6e23" creator="" creation-date="04/19/2026 22:53:22" visibility="package">
+            <structural-feature type="Scanner" type-id="Scanner" />
+            <property />
+          </item>
+          <item id="ddcb3fae264649cc979f9f33323548d2" cid="C013" type="class" name="VehicleNotFoundException" owner="3de012d2226e448699ca6f716bf605cd" creator="" creation-date="04/19/2026 22:44:47">
+            <owned-items />
+            <attributes>
+              <attribute id="a72ed518616e34a3d995c82bf54729a3c631" cid="PROP030" name="searchValue" creation-date="04/19/2026 22:45:06" property-ref="0ff4333db80d433ea7d9a772c407d233" />
+            </attributes>
+            <operations>
+              <operation id="o9fbdd8c7c65944c79228b7c8cb24dd2c935" cid="OP073" name="VehicleNotFoundException" creation-date="04/19/2026 22:45:20" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p846a54c28f7a4c98b9308777fa09829a" name="searchValue" type="String" type-id="Java.String" creation-date="04/19/2026 22:45:28" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa024b9a5588f4dd397b9ed60fdcd1389613" cid="OP074" name="VehicleNotFoundException" creation-date="04/19/2026 22:45:39" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p24065d9524ea47899c3fcfe10da394ca" name="searchValue" type="String" type-id="Java.String" creation-date="04/19/2026 22:45:52" />
+                  <parameter id="p8e3c0ead428e4d18ac98e3242478d455" name="message" type="String" type-id="Java.String" creation-date="04/19/2026 22:46:12" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob4c163d0f5b145719aeed015990c893f617" cid="OP075" name="getSearchValue" creation-date="04/19/2026 22:46:26" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="b02a2290015d402cb1508dfe36bd564c" cid="PKG004" type="package" name="interfaces" creator="" creation-date="04/19/2026 20:08:45" visibility="undefined">
+            <owned-items />
+          </item>
+          <item id="08d529928e5542b2b55c06a07b65e6fc" cid="PROP002" type="property" name="make" owner="c8def09c37db4640a2bf6094175febb5" creator="" creation-date="04/19/2026 20:10:27" visibility="protected">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="cbb10778c4f54270992cfeca94252ad9" cid="I001" type="uml-interface-classifier" name="Servicable" owner="b02a2290015d402cb1508dfe36bd564c" creator="" creation-date="04/19/2026 22:50:58">
+            <stereotypes>
+              <stereotype name="interface" />
+            </stereotypes>
+            <stereotype-instances>
+              <stereotype id="cbb10778c4f54270992cfeca94252ad9_interface_c" type="interface" creation-date="04/19/2026 22:50:58" ref="" />
+            </stereotype-instances>
+            <operations>
+              <operation id="o0c462b7ad8ae42818e7f85e80d97e358626" cid="OP081" name="getServiceCost" creation-date="04/19/2026 22:51:12" type="double" type-id="Java.double" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o180406f39c094f1eba4f3878ecc9b8d0586" cid="OP082" name="scheduleService" creation-date="04/19/2026 22:51:22" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p1f1b24e45b124ccaaca227f70c44bf4b" name="serviceDate" type="String" type-id="Java.String" creation-date="04/19/2026 22:51:29" />
+                  <parameter id="p16bcc926f1a34325b5579903e8c85c66" name="description" type="String" type-id="Java.String" creation-date="04/19/2026 22:51:34" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="odae00d9356854dae9a576ef95f886e07882" cid="OP083" name="getServiceStatus" creation-date="04/19/2026 22:51:39" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+          </item>
+          <item id="1936020b59084c0d89b856faa67add81" cid="PROP015" type="property" name="parts" owner="06762e5cfb3a4ff7b4d51cedddb58d00" creator="" creation-date="04/19/2026 22:16:53" visibility="private">
+            <structural-feature type="ArrayList" type-id="Java.ArrayList" />
+            <property default-value="Part" />
+          </item>
+          <item id="3aed41e3987f42eebe6ed4f7a14b40aa" cid="C004" type="class" name="ServiceRecord" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 22:00:41" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="a160834fbb945447f8956f25a13e4436196" cid="PROP004" name="recordId" creation-date="04/19/2026 22:00:53" property-ref="4fdfd6f29c2d46f380c03b87374fce5b" />
+              <attribute id="a143410700516456997cde12eaf658f83167" cid="PROP005" name="vehicleId" creation-date="04/19/2026 22:01:20" property-ref="1ca5615db121430c91ebd3451a57a1cc" />
+              <attribute id="a3aea81cf25024858b3f4ce10ac49ef44983" cid="PROP006" name="serviceDate" creation-date="04/19/2026 22:01:28" property-ref="e9b8f01026c348898e31dbc01332d4ce" />
+              <attribute id="a86513ab356f743af8c9a558d160d34a5214" cid="PROP007" name="description" creation-date="04/19/2026 22:01:45" property-ref="204abb6568a143038f40b54652c59a3c" />
+              <attribute id="ac3de13cf00424bbea33f475d2284cfd7691" cid="PROP008" name="cost" creation-date="04/19/2026 22:01:58" property-ref="a02ba648e6e441efaae90b788cf31277" />
+              <attribute id="a22f289f7d04040a4bf9501c292fcb2a557" cid="PROP009" name="mechanicName" creation-date="04/19/2026 22:02:32" property-ref="f7483f00c2e941c5a4954b6c1b4e47af" />
+              <attribute id="ae28f878db475477ebab3017c1b0c9a13434" cid="PROP010" name="status" creation-date="04/19/2026 22:02:41" property-ref="a632abf35d3843098221717f50a14d02" />
+            </attributes>
+            <operations>
+              <operation id="o588c88083e77450a821bdbded23ba7c9114" cid="OP008" name="serviceRecord" creation-date="04/19/2026 22:02:50" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o60e078840f6648b48cbcdb70f57ae457462" cid="OP009" name="serviceRecord" creation-date="04/19/2026 22:03:01" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p8cd9a9826811447b8b8ae6542a94a0a2" name="vehicleId" type="int" type-id="Java.int" creation-date="04/19/2026 22:03:12" />
+                  <parameter id="pb2c08123a8944e10b09ed3b1fa790279" name="serviceDate" type="String" type-id="Java.String" creation-date="04/19/2026 22:03:20" />
+                  <parameter id="pf19bb3ab26514988b367d6feb4a240a8" name="description" type="String" type-id="Java.String" creation-date="04/19/2026 22:03:28" />
+                  <parameter id="p2b9beeb07c2c4086a6e93e0d5b1132f9" name="cost" type="double" type-id="Java.double" creation-date="04/19/2026 22:03:38" />
+                  <parameter id="p7120ea865843478bbe0801e08d080836" name="mechanicName" type="String" type-id="Java.String" creation-date="04/19/2026 22:04:04" />
+                  <parameter id="p6a58e2cac53846aa8c56f86775eb1468" name="status" type="String" type-id="Java.String" creation-date="04/19/2026 22:04:18" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8171741df69844688985e09ef6ef174d656" cid="OP010" name="serviceRecord" creation-date="04/19/2026 22:04:34" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p162d0ccbee8344838131d5f2dc5b8c40" name="recordId" type="int" type-id="Java.int" creation-date="04/19/2026 22:04:45" />
+                  <parameter id="pceeef201ca9541aea314d6766720758d" name="vehicleId" type="int" type-id="Java.int" creation-date="04/19/2026 22:04:50" />
+                  <parameter id="pcabb558da7994b62b5199e1355b9c06a" name="serviceDate" type="String" type-id="Java.String" creation-date="04/19/2026 22:04:58" />
+                  <parameter id="p6f08f51822274d1ea41204b1fad69bc5" name="description" type="String" type-id="Java.String" creation-date="04/19/2026 22:05:04" />
+                  <parameter id="p317369e7c3df4dcdbe22842f4bdc09f0" name="cost" type="double" type-id="Java.double" creation-date="04/19/2026 22:05:13" />
+                  <parameter id="pab535a97f11c4c3396ac99787687cbbc" name="mechanicName" type="String" type-id="Java.String" creation-date="04/19/2026 22:05:58" />
+                  <parameter id="pde03de6b1e3b4a68a9179c58291a1d7d" name="status" type="String" type-id="Java.String" creation-date="04/19/2026 22:06:10" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o9519d61d472e45a08e6073bd6e3583af392" cid="OP011" name="toString" creation-date="04/19/2026 22:06:23" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc3993dfa3a894a6a99e79400957683fc95" cid="OP012" name="getRecordId" creation-date="04/19/2026 22:06:38" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oa909b4c979c94e58adf98b35a04a69d2442" cid="OP013" name="setRecordId" creation-date="04/19/2026 22:07:16" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p19658c34eec54dde8650022e493245a3" name="recordId" type="int" type-id="Java.int" creation-date="04/19/2026 22:07:54" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc180ed96b55e4ef5bd7824956ff15a29631" cid="OP014" name="getVehicleId" creation-date="04/19/2026 22:08:07" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o71b1c30e91734e40a278a4ec6b12e41b274" cid="OP015" name="setVehicleId" creation-date="04/19/2026 22:08:30" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3ca8464c484549f0b956cbc4fb0cb7f4" name="serviceDate" type="String" type-id="Java.String" creation-date="04/19/2026 22:08:38" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oc28524616b2343718d7c476c70e48d5f13" cid="OP016" name="getServiceDate" creation-date="04/19/2026 22:08:48" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o55c2816af02f4a27845eabb337df277e903" cid="OP017" name="setServiceDate" creation-date="04/19/2026 22:09:00" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p6a87f847f193447fb9b9b0d3219a2da1" name="serviceDate" type="String" type-id="Java.String" creation-date="04/19/2026 22:09:08" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o0138f1e24e00488c854105649f41903e563" cid="OP018" name="getDescription" creation-date="04/19/2026 22:09:21" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oda9436f9eb46435f83884ecc7061cf46317" cid="OP019" name="setDescription" creation-date="04/19/2026 22:09:38" type="String" type-id="Java.String" visibility="public">
+                <parameters>
+                  <parameter id="p41f6487b6fc2486ba3c84e4154afd78d" name="description" type="String" type-id="Java.String" creation-date="04/19/2026 22:09:47" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7e85cafb13b34f9f8cef3074d0f93a7379" cid="OP020" name="getCost" creation-date="04/19/2026 22:09:57" type="double" type-id="Java.double" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o99385fe5168b49ec93b3bd15988d26e965" cid="OP021" name="setCost" creation-date="04/19/2026 22:10:22" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p28f1256da9ff405588b87b4193b636c9" name="cost" type="double" type-id="Java.double" creation-date="04/19/2026 22:10:28" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="ob0d87422ae5949a5ab8d24b5fe70d9f7650" cid="OP022" name="getMechanicName" creation-date="04/19/2026 22:10:37" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o7c34cc34ec7648faa2e0958c287d2567987" cid="OP023" name="setMechanicName" creation-date="04/19/2026 22:10:47" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p95a5c508fb9f4842a206a8408d3eff76" name="mechanicName" type="String" type-id="Java.String" creation-date="04/19/2026 22:10:59" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oea170da8287b41e09281eb616f90dc59994" cid="OP024" name="getStatus" creation-date="04/19/2026 22:11:10" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o15d3a6fd739a44cf896873ee939d66e2763" cid="OP025" name="setStatus" creation-date="04/19/2026 22:11:18" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p0651f1ccf3e846f4a930a6c7fdb0b4ad" name="status" type="String" type-id="Java.String" creation-date="04/19/2026 22:11:23" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="c8def09c37db4640a2bf6094175febb5" cid="C001" type="class" name="Vehicle" owner="9e89723729314544a6b14ad117a82dee" creator="" creation-date="04/19/2026 20:09:15" visibility="undefined">
+            <owned-items />
+            <attributes>
+              <attribute id="aa01031e4482d4e07af6f987df4c5a228911" cid="PROP001" name="id" creation-date="04/19/2026 20:10:14" property-ref="7b4e80f00a0f421685f6d772bb3977a0" />
+              <attribute id="a519b843fe71a4e11b7b0dee8b85fbb5b891" cid="PROP002" name="make" creation-date="04/19/2026 20:10:27" property-ref="08d529928e5542b2b55c06a07b65e6fc" />
+              <attribute id="a60ea88b35be2444f8ef41e1604e6adb5222" cid="PROP003" name="model" creation-date="04/19/2026 20:10:38" property-ref="0db8d5f91bfd486aaa19fb3ab5baaea6" />
+            </attributes>
+            <operations>
+              <operation id="o465d9c7a66044ee1940cdbde35d8e5ff215" cid="OP001" name="Vehicle" creation-date="04/19/2026 20:10:54" type="" type-id="" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oaf1465beaf3d43148783b8c901cec610547" cid="OP002" name="Vehicle" creation-date="04/19/2026 20:12:28" type="" type-id="" visibility="public">
+                <parameters>
+                  <parameter id="p3d92c8a030434c72b5a8ea2009cbc2c2" name="id" type="int" type-id="Java.int" creation-date="04/19/2026 20:12:34" />
+                  <parameter id="p2ad6d2456d2141338c2fd986f4a368f0" name="make" type="String" type-id="Java.String" creation-date="04/19/2026 20:12:43" />
+                  <parameter id="p4516d65d2bf64db19b4204858aff3079" name="model" type="String" type-id="Java.String" creation-date="04/19/2026 20:12:51" />
+                </parameters>
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="oee70998885044fe6a6df155b86c46548845" cid="OP003" name="getId" creation-date="04/19/2026 20:13:20" type="int" type-id="Java.int" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o8c1da8761e654f59b32887515d62575d679" cid="OP004" name="getMake" creation-date="04/19/2026 20:13:34" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+              <operation id="o705273f197c346e1a89492e321c41926627" cid="OP005" name="getModel" creation-date="04/19/2026 20:13:44" type="String" type-id="Java.String" visibility="public">
+                <source-codes>
+                  <source-code language="ActionScript" />
+                </source-codes>
+              </operation>
+            </operations>
+            <source-codes>
+              <source-code language="ActionScript" />
+            </source-codes>
+          </item>
+          <item id="61f212e57d8e49e8b4cb1a9db2de76a9" cid="PROP014" type="property" name="unitPrice" owner="e1e3d1bda8a2435589097bda739a36a4" creator="" creation-date="04/19/2026 22:13:20" visibility="private">
+            <structural-feature type="double" type-id="Java.double" />
+          </item>
+          <item id="a632abf35d3843098221717f50a14d02" cid="PROP010" type="property" name="status" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:02:41" visibility="private">
+            <structural-feature type="String" type-id="Java.String" />
+          </item>
+          <item id="1ca5615db121430c91ebd3451a57a1cc" cid="PROP005" type="property" name="vehicleId" owner="3aed41e3987f42eebe6ed4f7a14b40aa" creator="" creation-date="04/19/2026 22:01:20" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+          </item>
+          <item id="fd40d4b20dca4767ba42dee52f6af9b3" cid="PROP018" type="property" name="quantityUsed" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:26:04" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+            <property />
+          </item>
+          <item id="8086bff0712347d29d41432b3ae1dbb6" cid="PROP017" type="property" name="partId" owner="dcae7786c3cd4fb391a542b7d44cdef8" creator="" creation-date="04/19/2026 22:25:58" visibility="private">
+            <structural-feature type="int" type-id="Java.int" />
+            <property />
+          </item>
+        </abstract-items>
+        <layer id="f7521c5ed3b74a68bce8c976b789423b" name="Default" visible="true" enabled="true" locked="false">
+          <item id="9e89723729314544a6b14ad117a82dee" iid="c493b758483d417fa7d9dbb2d19c9a3e" creation-date="04/19/2026 20:08:32" order-index="0" type="entity">
+            <layout ax="-769" ay="-655" awidth="1840" aheight="981" x="-769" y="-655" width="1840" height="981" expanded="-769,-655,1840,981" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="e6acb4ad3d714f6f8514b81234d6bd11" iid="421f0026f8264251bcf91eced3f495e7" creation-date="04/19/2026 20:08:36" order-index="1" type="entity">
+            <layout ax="-1039.5" ay="373" awidth="899" aheight="479" x="-1039.5" y="373" width="899" height="479" expanded="-1039.5,373,899,479" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="6011d458bfc841a289678db4fdeac4cb" iid="0a08a242c6bc41668a47ab5aadb1d065" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 20:14:12" order-index="6" type="entity">
+            <layout ax="-350" ay="-576" awidth="273" aheight="68" x="-350" y="-576" width="273" height="68" />
+            <classifier />
+            <class />
+          </item>
+          <item id="0a01c9db6eb14c688ab917c56fff3757" iid="281cbb4ec9244ddd9879c77d0609a2b4" container="e6acb4ad3d714f6f8514b81234d6bd11" container-iid="421f0026f8264251bcf91eced3f495e7" show-fields="true" creation-date="04/19/2026 22:37:38" order-index="13" type="entity">
+            <layout ax="-700.5" ay="434" awidth="515" aheight="139" x="1498" y="-548" width="515" height="139" />
+            <classifier />
+            <class />
+          </item>
+          <item id="127a802cdec44cf0bb10137bd3248bf3" iid="c350a535c7734be7a3e37085b2d11fad" container="e6acb4ad3d714f6f8514b81234d6bd11" container-iid="421f0026f8264251bcf91eced3f495e7" show-fields="true" creation-date="04/19/2026 22:40:04" order-index="14" type="entity">
+            <layout ax="-700.5" ay="599" awidth="378" aheight="200" x="1498" y="-383" width="378" height="200" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c60cb83ff0e947e0bbde151d51ab0ac2" iid="6036784f08684320ab4bfd2708429896" container="e6acb4ad3d714f6f8514b81234d6bd11" container-iid="421f0026f8264251bcf91eced3f495e7" show-fields="true" creation-date="04/19/2026 22:42:53" order-index="15" type="entity">
+            <layout ax="-1012.5" ay="705.5" awidth="285" aheight="126" x="-1012.5" y="705.5" width="285" height="126" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c96804c50c8743a5bb7f8aa358aeca6c" iid="8b07f62c354a490eb6c6ea6a06cad4b4" container="e6acb4ad3d714f6f8514b81234d6bd11" container-iid="421f0026f8264251bcf91eced3f495e7" show-fields="true" creation-date="04/19/2026 22:31:07" order-index="12" type="entity">
+            <layout ax="-1000.5" ay="434" awidth="261" aheight="260" x="1198" y="-548" width="261" height="260" />
+            <classifier />
+            <class />
+          </item>
+          <item id="acb057e380494c7aac454ac3b4930ac5" iid="83cebe5ee23447bbb0e15462d3b288cf" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 21:59:09" order-index="7" type="entity">
+            <layout ax="-350" ay="-439" awidth="273" aheight="68" x="-350" y="-439" width="273" height="68" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3aed41e3987f42eebe6ed4f7a14b40aa" iid="268e99438e914670b8793480e332236a" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 22:00:41" order-index="8" type="entity">
+            <layout ax="-740" ay="-332.5" awidth="840" aheight="593" x="-740" y="-332.5" width="840" height="593" />
+            <classifier />
+            <class />
+          </item>
+          <item id="e1e3d1bda8a2435589097bda739a36a4" iid="91dd0d7209ed4b66bba97543f7fabc34" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 22:12:40" order-index="9" type="entity">
+            <layout ax="219" ay="-576" awidth="611" aheight="338" x="219" y="-576" width="611" height="338" />
+            <classifier />
+            <class />
+          </item>
+          <item id="06762e5cfb3a4ff7b4d51cedddb58d00" iid="910db00310a4401aa35e848234319a11" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 22:16:43" order-index="10" type="entity">
+            <layout ax="-58" ay="-576" awidth="199" aheight="212" x="-58" y="-576" width="199" height="212" />
+            <classifier />
+            <class />
+          </item>
+          <item id="dcae7786c3cd4fb391a542b7d44cdef8" iid="92fe1aed969a4ae285cad50e1da4c9e1" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 22:25:34" order-index="11" type="entity">
+            <layout ax="151" ay="-171" awidth="875" aheight="453" x="151" y="-171" width="875" height="453" />
+            <classifier />
+            <class />
+          </item>
+          <item id="c8def09c37db4640a2bf6094175febb5" iid="a6eaa3782dce4e2d973efd618f8c6ca3" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" show-fields="true" creation-date="04/19/2026 20:09:15" order-index="5" type="entity">
+            <layout ax="-740" ay="-581" awidth="300" aheight="226" x="-621" y="-451" width="300" height="226" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3de012d2226e448699ca6f716bf605cd" iid="1ce6e828387048e5b2ca6555fce2c52d" creation-date="04/19/2026 20:08:41" order-index="2" type="entity">
+            <layout ax="-29" ay="407" awidth="802" aheight="376" x="-29" y="407" width="802" height="376" expanded="-29,407,802,376" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="b02a2290015d402cb1508dfe36bd564c" iid="7bb48bfa0ef44e71a016ac92760183c7" creation-date="04/19/2026 20:08:45" order-index="3" type="entity">
+            <layout ax="856" ay="389" awidth="477" aheight="226" x="856" y="389" width="477" height="226" expanded="856,389,477,226" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="9674d57ccc84471cae4d1093401618f9" iid="dbbac9e47d9747789a3268e7f5661be2" container="3de012d2226e448699ca6f716bf605cd" container-iid="1ce6e828387048e5b2ca6555fce2c52d" show-fields="true" creation-date="04/19/2026 22:47:28" order-index="17" type="entity">
+            <layout ax="437" ay="466" awidth="300" aheight="173" x="1652" y="158" width="300" height="173" />
+            <classifier />
+            <class />
+          </item>
+          <item id="3eba2c32d5fc4d4aaec5d6d37b570287" iid="1acc5173ca7540b2acbedf86042295a5" container="3de012d2226e448699ca6f716bf605cd" container-iid="1ce6e828387048e5b2ca6555fce2c52d" show-fields="true" creation-date="04/19/2026 22:49:20" order-index="18" type="entity">
+            <layout ax="-1" ay="662" awidth="388" aheight="84" x="1214" y="354" width="388" height="84" />
+            <classifier />
+            <class />
+          </item>
+          <item id="2529aca54e41461da82f082ea9a1deaf" iid="f58a33cf7fd043219e2d2068178ebebc" container="3de012d2226e448699ca6f716bf605cd" container-iid="1ce6e828387048e5b2ca6555fce2c52d" show-fields="true" creation-date="04/19/2026 22:50:02" order-index="19" type="entity">
+            <layout ax="415" ay="662" awidth="322" aheight="84" x="1630" y="354" width="322" height="84" />
+            <classifier />
+            <class />
+          </item>
+          <item id="ddcb3fae264649cc979f9f33323548d2" iid="f5ca54ceb808468fa85f1160c775cf31" container="3de012d2226e448699ca6f716bf605cd" container-iid="1ce6e828387048e5b2ca6555fce2c52d" show-fields="true" creation-date="04/19/2026 22:44:47" order-index="16" type="entity">
+            <layout ax="-1" ay="466" awidth="388" aheight="173" x="1214" y="158" width="388" height="173" />
+            <classifier />
+            <class />
+          </item>
+          <item id="cbb10778c4f54270992cfeca94252ad9" iid="d6f16c4e3a1445b180ef3e0ce347627f" container="b02a2290015d402cb1508dfe36bd564c" container-iid="7bb48bfa0ef44e71a016ac92760183c7" creation-date="04/19/2026 22:50:58" order-index="20" type="entity">
+            <layout ax="864.5" ay="440" awidth="416" aheight="146" x="675.5" y="405" width="416" height="146" />
+            <classifier />
+            <class />
+          </item>
+          <item id="295648d4718344eba7ac938dcb3fa433" iid="85d3580a43354687bc127620c58eb19b" creation-date="04/19/2026 20:08:52" order-index="4" type="entity">
+            <layout ax="122" ay="852" awidth="559" aheight="618" x="122" y="852" width="559" height="618" expanded="122,852,559,618" collapsed="0,0,0,0" />
+            <package name-in-body="false" />
+          </item>
+          <item id="14df238768ee4fafbddf5b634cd62667" iid="a3997f6c3545473a85452611fc45f058" container="295648d4718344eba7ac938dcb3fa433" container-iid="85d3580a43354687bc127620c58eb19b" show-fields="true" creation-date="04/19/2026 22:52:20" order-index="21" type="entity">
+            <layout ax="157" ay="906" awidth="168" aheight="68" x="-165" y="497" width="168" height="68" />
+            <classifier />
+            <class />
+          </item>
+          <item id="91d14895f0f94674a991dc0a0c7a4723" iid="4df9968e949e4a3b98c01b495f326416" container="295648d4718344eba7ac938dcb3fa433" container-iid="85d3580a43354687bc127620c58eb19b" show-fields="true" creation-date="04/19/2026 22:54:22" order-index="23" type="entity">
+            <layout ax="195" ay="1068.5" awidth="410" aheight="307" x="-127" y="659.5" width="410" height="307" />
+            <classifier />
+            <class />
+          </item>
+          <item id="49bb15cbf012466088668d1b2efa6e23" iid="a3c41792c4d7471b839c0534aff21bb4" container="295648d4718344eba7ac938dcb3fa433" container-iid="85d3580a43354687bc127620c58eb19b" show-fields="true" creation-date="04/19/2026 22:53:12" order-index="22" type="entity">
+            <layout ax="360" ay="906" awidth="140" aheight="145" x="38" y="497" width="140" height="145" />
+            <classifier />
+            <class />
+          </item>
+          <item id="8922f08eecaa4fccb462dd2de0e69701" iid="d376babb1fd245b6b3bcfb04bb5f4ff8" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" creation-date="04/19/2026 23:00:28" order-index="24" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-440" y1="-401" x2="-350" y2="-405" start-border-pos="0.4491150442477876" end-border-pos="0.875" start-local-pos="180" end-local-pos="34" name-position="0,20">
+              <points>
+                <point x="-440" y="-401" />
+                <point x="-350" y="-405" />
+              </points>
+            </layout>
+            <relation from="c8def09c37db4640a2bf6094175febb5" from-iid="a6eaa3782dce4e2d973efd618f8c6ca3" to="acb057e380494c7aac454ac3b4930ac5" to-iid="83cebe5ee23447bbb0e15462d3b288cf" />
+          </item>
+          <item id="cd53b4c986274333b15150e77ec9067c" iid="293aeaf5dad44004adee05e44bbbd9a9" container="9e89723729314544a6b14ad117a82dee" container-iid="c493b758483d417fa7d9dbb2d19c9a3e" creation-date="04/19/2026 23:00:47" order-index="25" type="relation">
+            <layout line-style="oblique" lock-start-point="true" lock-end-point="true" lock-to-fields="false" auto-path="" x1="-440" y1="-530" x2="-350" y2="-542" start-border-pos="0.3064159292035398" end-border-pos="0.875" start-local-pos="51" end-local-pos="34" name-position="0,20">
+              <points>
+                <point x="-440" y="-530" />
+                <point x="-350" y="-542" />
+              </points>
+            </layout>
+            <relation from="c8def09c37db4640a2bf6094175febb5" from-iid="a6eaa3782dce4e2d973efd618f8c6ca3" to="6011d458bfc841a289678db4fdeac4cb" to-iid="0a08a242c6bc41668a47ab5aadb1d065" />
+          </item>
+        </layer>
+      </diagram>
+    </model>
+  </models>
+</sim-project>

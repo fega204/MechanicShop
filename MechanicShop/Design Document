@@ -1,0 +1,78 @@
+Mechanic Shop Management System
+Design Document
+
+1. Overview
+This application was created to help manage a mechanic shop using a Java console program connected to a MariaDB database.
+
+2. Objectives
+- Store vehicle records
+- Manage inventory parts
+- Generate customer invoices
+- Practice OOP and database programming
+
+3. Program Structure
+
+Packages:
+- ui
+- database
+- models
+- exceptions
+
+4. Main Classes
+
+Main.java
+Starts the program and displays main menu.
+
+VehicleMenu.java
+Handles vehicle menu options.
+
+InventoryMenu.java
+Handles parts and invoice options.
+
+VehicleDAO.java
+Database operations for vehicles.
+
+PartDAO.java
+Database operations for parts.
+
+InvoiceDAO.java
+Database operations for invoices.
+
+DatabaseManager.java
+Creates database connection.
+
+Models:
+- Vehicle
+- Car
+- Truck
+- Part
+- Invoice
+- Inventory
+- ServiceRecord
+
+Exceptions:
+- InvalidInputException
+- InsufficientPartsException
+- DuplicateVehicleException
+- VehicleNotFoundException
+
+5. Database Tables
+vehicle(id, make, model)
+part(id, name, quantity, price)
+
+6. Input Validation
+The program checks:
+- invalid menu choices
+- text instead of numbers
+- negative values
+- empty text fields
+- missing records
+
+7. OOP Concepts Used
+- Encapsulation
+- Inheritance
+- Polymorphism
+- Exception Handling
+
+8. Conclusion
+The project successfully demonstrates Java programming, menus, validation, and database integration.
